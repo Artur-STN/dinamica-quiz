@@ -1,0 +1,142 @@
+.boxDinamica {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+    
+    background: #2C3E50;
+
+    width: 100vw;
+    min-height: 100vh;
+
+    padding: 5rem 0;
+
+    transition: 0.2s;
+
+    position: fixed;
+    top: 0;
+    left: -100vw;
+
+}
+
+.boxDinamica.active {
+
+    left: 0;
+
+}
+
+.boxDinamica .divPergunta,
+.boxDinamica .divResposta {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    text-align: center;
+    
+    width: 80vw;
+    height: 30vh;
+
+    transition: 0.2s;
+
+}
+
+.boxDinamica .divPergunta p,
+.boxDinamica .divResposta p {
+
+    color: white;
+    
+    font-family: 'Roboto';
+    font-size: 2rem;
+    
+    text-shadow: 0 0 10px black;
+
+}
+
+.boxDinamica .divPergunta button {
+
+    background: #2ecc71;
+    color: white;
+    
+    font-family: 'Roboto';
+    font-size: 2rem;
+
+    border: 1px solid;
+
+    text-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+
+    width: 200px;
+    
+    padding: 0.5rem 0;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    outline: none;
+
+}
+
+.boxDinamica .divPergunta button:hover {
+
+    background: white;
+    color: green;
+
+    width: 300px;
+
+    text-shadow: 0 0 10px white;
+
+}
+
+.boxDinamica .divResposta button {
+
+    background: #fa2134;
+    color: white;
+    
+    font-family: 'Roboto';
+    font-size: 2rem;
+
+    border: 1px solid;
+
+    text-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+
+    width: 200px;
+    
+    padding: 0.5rem 0;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    outline: none;
+
+}
+
+.boxDinamica .divResposta button:hover {
+
+    background: white;
+    color: #fa2134;
+
+    text-shadow: 0 0 10px white;
+
+    width: 300px;
+
+}
+
+.boxDinamica .divResposta {
+
+    visibility: hidden;
+
+}
+
+.boxDinamica .divResposta.active {
+
+    visibility: visible;
+
+}

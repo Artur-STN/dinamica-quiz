@@ -1,0 +1,60 @@
+section {
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+    gap: 10px;
+
+}
+
+section .box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #2C3E50;
+    color: white;
+
+    font-family: 'Roboto';
+    font-size: 3rem;
+
+    text-shadow: 0 0 10px black;
+    
+    width: 100px;
+    height: 100px;
+
+    border: 0;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+section .box:hover {
+
+    background: #2ED573;
+
+    box-shadow: 0 0 10px black;
+
+    border-radius: 10px;
+
+}
+
+section .box.active,
+section .box.active:hover {
+
+    background: #FF4757;
+    color: white;
+
+    cursor: not-allowed;
+
+    text-shadow: none;
+
+    border: 0;
+    box-shadow: 0 0 0 transparent;
+
+}

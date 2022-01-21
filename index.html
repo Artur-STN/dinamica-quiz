@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- LINK CSS -->
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/section.css">
+        <link rel="stylesheet" href="css/boxDinamica.css">
+        <link rel="stylesheet" href="css/pontos.css">
+
+        <!-- LINK JAVASCRIPT -->
+        <script src="js/main.js"></script>
+        <script src="js/pontos.js"></script>
+
+        <title>Dinamica</title>
+
+    </head>
+
+    <body>
+
+        <div id="boxDinamica" class="boxDinamica">
+
+            <div class="divPergunta">
+            
+                <p id="pergunta" class="pergunta"></p>
+            
+                <button onclick="revelarResposta()">REVELAR</button>
+            
+            </div>
+
+            <div id="divResposta" class="divResposta">
+                
+                <p id="resposta" class="resposta"></p>
+                
+                <button onclick="closeBoxDinamica()">FECHAR</button>
+            
+            </div>
+
+        </div>
+
+        <div class="pontos pontoEsquerda">
+
+            <p>JOGADOR 1</p>
+
+            <input type="number" name="inputPontoEsquerda" id="inputPontoEsquerda">
+
+            <div class="buttons">
+                <button onclick="PointLeft(3)">+ 3</button>
+                <button onclick="PointLeft(5)">+ 5</button>
+            </div>
+
+        </div>
+
+        <section id="section">
+
+            <button onclick="getDynamics('0')" id="box_0" class="box">1</button>
+            <button onclick="getDynamics('1')" id="box_1" class="box">2</button>
+            <button onclick="getDynamics('2')" id="box_2" class="box">3</button>
+            <button onclick="getDynamics('3')" id="box_3" class="box">4</button>
+            <button onclick="getDynamics('4')" id="box_4" class="box">5</button>
+            <button onclick="getDynamics('5')" id="box_5" class="box">6</button>
+            <button onclick="getDynamics('6')" id="box_6" class="box">7</button>
+            <button onclick="getDynamics('7')" id="box_7" class="box">8</button>
+            <button onclick="getDynamics('8')" id="box_8" class="box">9</button>
+            <button onclick="getDynamics('9')" id="box_9" class="box">10</button>
+            <button onclick="getDynamics('10')" id="box_10" class="box">11</button>
+            <button onclick="getDynamics('11')" id="box_11" class="box">12</button>
+            <button onclick="getDynamics('12')" id="box_12" class="box">13</button>
+            <button onclick="getDynamics('13')" id="box_13" class="box">14</button>
+            <button onclick="getDynamics('14')" id="box_14" class="box">15</button>
+            <button onclick="getDynamics('15')" id="box_15" class="box">16</button>
+            <button onclick="getDynamics('16')" id="box_16" class="box">17</button>
+            <button onclick="getDynamics('17')" id="box_17" class="box">18</button>
+            <button onclick="getDynamics('18')" id="box_18" class="box">19</button>
+            <button onclick="getDynamics('19')" id="box_19" class="box">20</button>
+            <button onclick="getDynamics('20')" id="box_20" class="box">21</button>
+            <button onclick="getDynamics('21')" id="box_21" class="box">22</button>
+            <button onclick="getDynamics('22')" id="box_22" class="box">23</button>
+            <button onclick="getDynamics('23')" id="box_23" class="box">24</button>
+            <button onclick="getDynamics('24')" id="box_24" class="box">25</button>
+            <button onclick="getDynamics('25')" id="box_25" class="box">26</button>
+            <button onclick="getDynamics('26')" id="box_26" class="box">27</button>
+            <button onclick="getDynamics('27')" id="box_27" class="box">28</button>
+            <button onclick="getDynamics('28')" id="box_28" class="box">29</button>
+            <button onclick="getDynamics('29')" id="box_29" class="box">30</button>
+            <button onclick="getDynamics('30')" id="box_30" class="box">31</button>
+            <button onclick="getDynamics('31')" id="box_31" class="box">32</button>
+            <button onclick="getDynamics('32')" id="box_32" class="box">33</button>
+            <button onclick="getDynamics('33')" id="box_33" class="box">34</button>
+            <button onclick="getDynamics('34')" id="box_34" class="box">35</button>
+            <button onclick="getDynamics('35')" id="box_35" class="box">36</button>
+            <button onclick="getDynamics('36')" id="box_36" class="box">37</button>
+            <button onclick="getDynamics('37')" id="box_37" class="box">38</button>
+            <button onclick="getDynamics('38')" id="box_38" class="box">39</button>
+            <button onclick="getDynamics('39')" id="box_39" class="box">40</button>
+            <button onclick="getDynamics('40')" id="box_40" class="box">41</button>
+            <button onclick="getDynamics('41')" id="box_41" class="box">42</button>
+            <button onclick="getDynamics('42')" id="box_42" class="box">43</button>
+            <button onclick="getDynamics('43')" id="box_43" class="box">44</button>
+            <button onclick="getDynamics('44')" id="box_44" class="box">45</button>
+            <button onclick="getDynamics('45')" id="box_45" class="box">46</button>
+            <button onclick="getDynamics('46')" id="box_46" class="box">47</button>
+            <button onclick="getDynamics('47')" id="box_47" class="box">48</button>
+
+        </section>
+
+        <div class="pontos pontoDireita">
+
+            <p>JOGADOR 2</p>
+
+            <input type="number" name="inputPontoDireita" id="inputPontoDireita">
+
+            <div class="buttons">
+                <button onclick="PointRight('3')">+ 3</button>
+                <button onclick="PointRight('5')">+ 5</button>
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
