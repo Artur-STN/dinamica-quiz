@@ -1,3 +1,5 @@
+// PERGUNTAS
+
 var perguntas = [
 
     "<p>O que está escrito em Romanos 14:8?</p>",
@@ -50,6 +52,8 @@ var perguntas = [
     "<p>O que está escrito em João 3:16?</p>"
 
 ]
+
+//RESPOSTAS
 
 var respostas = [
 
