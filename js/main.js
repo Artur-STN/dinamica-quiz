@@ -80,7 +80,7 @@ var respostas = [
     "<p>Mas deixarei, no meio de ti, um povo modesto e humilde, que confia em o nome do SENHOR.</p>",
     "<p>Provérbios</p>",
     "<p>Decapitado</p>",
-    "<p>logo, já não sou eu quem vive, mas Cristo vive em mim; e esse viver que, agora, tenho na carne, vivo pela fé no Filho de Deus, que me amou e a si mesmo se entregou por mim.</p>","<p>Mas deixarei, no meio de ti, um povo modesto e humilde, que confia em o nome do SENHOR.</p>",
+    "<p>Logo, já não sou eu quem vive, mas Cristo vive em mim; e esse viver que, agora, tenho na carne, vivo pela fé no Filho de Deus, que me amou e a si mesmo se entregou por mim.</p>",
     "<p>Todos os dias de Matusalém foram novecentos e sessenta e nove anos; e morreu.</p>",
     "<p>3 João</p>",
     "<p>1 - Não se turbe o vosso coração; credes em Deus, crede também em mim.</p><p>2 - Na casa de meu Pai há muitas moradas. Se assim não fora, eu vo-lo teria dito. Pois vou preparar-vos lugar.</p><p>3 - E, quando eu for e vos preparar lugar, voltarei e vos receberei para mim mesmo, para que, onde eu estou, estejais vós também.</p>",
