@@ -1,1 +1,1 @@
-https://artur-stn.github.io/dinaminca-quiz
+https://artur-stn.github.io/dinamica-quiz
