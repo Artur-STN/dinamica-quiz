@@ -13,7 +13,7 @@
 
 .pontoEsquerda p {
 
-    background: #5D2A74;
+    background: #FF2C2C;
     color: white;
 
     font-size: 2rem;
@@ -29,7 +29,7 @@
 
 .pontoDireita p {
 
-    background: #515858;
+    background: #120A8F;
     color: white;
 
     font-size: 2rem;
@@ -85,7 +85,7 @@ input::-webkit-inner-spin-button {
 
 .pontoEsquerda .buttons button {
 
-    background: #8E44AD;
+    background: #E60000;
     color: white;
 
     font-family: 'Roboto';
@@ -94,7 +94,7 @@ input::-webkit-inner-spin-button {
     width: 100px;
     height: 100px;
 
-    border: 1px solid #5D2A74;
+    border: 1px solid #CF0E0E;
 
     cursor: pointer;
 
@@ -104,7 +104,7 @@ input::-webkit-inner-spin-button {
 
 .pontoEsquerda .buttons button:hover {
 
-    background: #5D2A74;
+    background: #790604;
 
     text-shadow: 0 0 10px black;
 
@@ -112,7 +112,7 @@ input::-webkit-inner-spin-button {
 
 .pontoDireita .buttons button {
 
-    background: #7f8c8d;
+    background: #120A8F;
     color: white;
 
     font-family: 'Roboto';
@@ -121,7 +121,7 @@ input::-webkit-inner-spin-button {
     width: 100px;
     height: 100px;
 
-    border: 1px solid #515858;
+    border: 1px solid #081534;
 
     cursor: pointer;
 
@@ -131,8 +131,9 @@ input::-webkit-inner-spin-button {
 
 .pontoDireita .buttons button:hover {
 
-    background: #515858;
+    background: #040F16;
 
     text-shadow: 0 0 10px black;
 
 }
+
